@@ -1,0 +1,67 @@
+[
+    {
+        "bytes_data": "{",
+        "types": "delim",
+        "fuzzable": false
+    },
+    {
+        "bytes_data": "\"command\"",
+        "types": "string",
+        "fuzzable": false
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": false
+    },
+    {
+        "bytes_data": "\"state.switch_motor_on\"",
+        "types": "string",
+        "fuzzable": false
+    },
+    {
+        "bytes_data": ",",
+        "types": "delim",
+        "fuzzable": false
+    },
+    {
+        "bytes_data": "\"id\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"dc303cda5d3008f7f02c5d88fceda839\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ",",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"module\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"system\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "}",
+        "types": "delim",
+        "fuzzable": true
+    }
+]

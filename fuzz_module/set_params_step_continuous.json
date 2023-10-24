@@ -1,0 +1,147 @@
+[
+    {
+        "bytes_data": "{",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"command\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"jog.set_params\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ",",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"data\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "{",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"override\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "0.23",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ",",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"space\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "2",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ",",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"step\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "1000",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "}",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ",",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"id\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"f01b5e42d4c9bb247f0992dd94a38a40\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ",",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"module\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": ":",
+        "types": "delim",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "\"motion\"",
+        "types": "string",
+        "fuzzable": true
+    },
+    {
+        "bytes_data": "}",
+        "types": "delim",
+        "fuzzable": true
+    }
+]
